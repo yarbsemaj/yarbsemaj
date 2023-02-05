@@ -1,1 +1,1 @@
-![Banner](https://github.com/yarbsemaj/yarbsemaj/blob/master/banner.gig?raw=true)
+![Banner](https://raw.githubusercontent.com/yarbsemaj/yarbsemaj/master/banner.gif)
