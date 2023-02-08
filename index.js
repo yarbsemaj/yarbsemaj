@@ -1,17 +1,17 @@
 const fs = require('fs')
 const crypto = require("crypto");
 
-let ix = 12
-let iy = 15
+let ix = 11
+let iy = 13
 
-let ax = ix + 55
+let ax = ix + 56
 let ay = iy + 6
 
 let stars = []
 
 while (stars.length < 32) {
     let x = getRandomInt(80)
-    let y = getRandomInt(37)
+    let y = getRandomInt(34)
 
     if (!(ix <= x && x <= ax && iy <= y && y <= ay)) {
         stars.push({ x, y })

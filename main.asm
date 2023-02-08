@@ -8,7 +8,7 @@ starState   .EQU     0A000H
 
     LD		HL, cls			;Clear screen
 	CALL	print
-    LD      BC ,0F0EH       ;Print Banner
+    LD      BC ,0D0EH       ;Print Banner
     LD      HL,logo
     CALL    printAtPos
 
@@ -65,7 +65,7 @@ include 'libs.asm'
 cls: .BYTE 1BH,"[H",1BH,"[2J",1BH,"[?25l",0
 
 logo:
-    .byte 1BH,"[94m"   ;RED
+    .byte 1BH,"[96m"   ;RED
     .byte " _    _      _ _         _______ _                   _ ",0
     .byte " | |  | |    | | |       |__   __| |                 | |",0
     .byte " | |__| | ___| | | ___      | |  | |__   ___ _ __ ___| |",0
